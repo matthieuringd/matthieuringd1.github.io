@@ -1,0 +1,98 @@
+/* General page style */
+
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  font-family: Arial, Helvetica, sans-serif;
+
+  background: #f5f7fa;
+  color: #1f2937;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Main profile card */
+
+.profile {
+  width: 90%;
+  max-width: 700px;
+
+  background: white;
+
+  padding: 50px;
+  border-radius: 16px;
+
+  text-align: center;
+
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Name */
+
+.profile h1 {
+  margin-bottom: 10px;
+
+  font-size: 42px;
+}
+
+
+/* Subtitle */
+
+.subtitle {
+  margin-bottom: 25px;
+
+  font-size: 20px;
+  font-weight: bold;
+
+  color: #4b5563;
+}
+
+
+/* Description */
+
+.profile p {
+  line-height: 1.6;
+}
+
+
+/* Links container */
+
+.links {
+  margin-top: 35px;
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  gap: 12px;
+}
+
+
+/* Buttons */
+
+.links a {
+  padding: 12px 20px;
+
+  border-radius: 8px;
+
+  background: #1f2937;
+  color: white;
+
+  text-decoration: none;
+
+  transition: 0.2s;
+}
+
+
+/* Button hover effect */
+
+.links a:hover {
+  transform: translateY(-2px);
+
+  background: #374151;
+}
